@@ -10,7 +10,7 @@ int main()
   uint16_t ubrr = BAUD_RATE_115200;
   uint8_t dato[] = "Hola mundo\n\r";
 
-  /* Configuración el baud-rate */
+  /* Configuración del baud-rate */
   UBRR0H = (ubrr >> 8) & 0xFF;   /* Byte más significativo */
   UBRR0L = ubrr & 0xFF;          /* Byte menos significativo */
 
