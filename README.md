@@ -6,4 +6,5 @@ Estos ejemplos está separados en tres directorios:
  * `sketch`:  programación como sketch Arduino usando funciones de la biblioteca `wiring`.
  * `sketch-reg`: programación como sketch con acceso a registros (sin uso de biblioteca `wiring`).
 
- 
+Para probar los ejemplos con un Arduino UNO se puede utilizar la placa de expansión (Shield) [ponchitoCIII](https://github.com/ciiiutnfrc/ponchitoCIII/).
+Los ejemplos programados mediante Sketchs se puede probar utilizando el simulador [TinkerCAD](https://www.tinkercad.com/), usando versión en simulación del [ponchitoCIII](https://www.tinkercad.com/things/a9nrlsl5pPs).
